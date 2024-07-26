@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.full{
+  border: 1px solid black;
+  display: flex;
+}
+.left{
+  background-color: #5F5856;
+  width: 350px;
+  padding: 50px;
+}
+.right{
+  background-color: #F7E8D1;
+  width: 100%;
+}
+.img{  
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+.name{
+  margin-top: 80px;
+}
+.name>h2{
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  padding-left: 20px;
+}
+.name>h5{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.contact{
+  color: white;
+  margin-top: 25px;
+}
+.contact>h4{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid white;
+}
+.cont>h5{
+  font-size:15px;
+  padding-bottom: 10px;
+}
+.cont{
+  font-family: "Roboto", sans-serif;
+}
+.skills{
+  color: white;
+  margin-top: 25px;
+}
+.skills>h4{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid white;
+}
+.skl{
+  padding-top:10px;
+  font-family: "Roboto", sans-serif;
+  font-size:20px;
+}
+.per{
+  border: 1px solid white;
+  height: 10px;
+  margin-top: 10px;
+}
+.p{
+  background-color:white;
+  width: 80%;
+  height: 10px;
+}
+.about{
+  color: black;
+  margin-top: 20px;
+  padding:50px;
+  padding-bottom:0px;
+  font-family: "Roboto", sans-serif;
+  
+}
+.about>h4{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+.exp{
+  color: black;
+  padding:50px;
+  font-family: "Roboto", sans-serif;
+  padding-bottom:0px;
+  width: 350px;
+}
+.exp h4{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+.exp .int h5{
+  font-size:15px;
+  padding-bottom:10px;
+}
+.exp .int p{
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.edu{
+  padding-top:10px;
+  color: black;
+  padding:50px;
+  font-family: "Roboto", sans-serif;
+}
+.edu h4{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+.edu .ed h5{
+  font-size:15px;
+  padding-bottom:10px;
+}
+.edu .ed p{
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.both{
+  display: flex;
+}
+.lang{
+  color: black;
+  margin-top: 0px;
+  padding:50px;
+  padding-top:5px;
+}
+.lang h4{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+.lper{
+  border: 1px solid black;
+  height: 10px;
+  margin-top: 10px;
+}
+.lp{
+  background-color:black;
+  width: 80%;
+  height: 10px;
+}
+.lg{
+  padding-top:10px;
+  font-family: "Roboto", sans-serif;
+  font-size:20px;
+}
+.cer{
+  color: black;
+  font-family: "Roboto", sans-serif;
+  border-color: black;
+  margin-top: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.cer h4{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+}  
+.cer .certi h5{
+  font-size:15px;
+  padding-bottom:10px;
+}
+.cer .certi p{
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
