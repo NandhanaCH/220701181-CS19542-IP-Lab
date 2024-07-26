@@ -1,0 +1,48 @@
+* {
+    padding:10px;
+    margin:0px;
+}
+body{
+    background-color: rgb(237, 120, 140);
+    text-align: center;
+}
+.head{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    letter-spacing: 10px;    
+    background-color: pink;
+    padding: 10px;
+    margin:20px;
+}
+table{
+    margin:30px;
+    background-color: pink;
+    float: center;
+    border: 5px solid black;
+    border-collapse: collapse;
+    font-family: "Roboto", sans-serif;
+}
+td{
+    border: 2px solid black;
+}
+th{
+    border: 3px solid black;
+    background-color: rgb(253, 161, 176);
+}
+.link{
+    color: inherit;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+.cell{
+    margin:30px;
+    background-color: pink;
+    float: center;
+    border: 5px solid black;
+    border-collapse: collapse;
+    font-family: "Roboto", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
