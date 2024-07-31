@@ -1,0 +1,152 @@
+.h h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    padding-left: 20px;
+    text-align: center;
+    background-color: rgb(173, 117, 50);
+    color: white;
+    margin-top: 30px;
+}
+.h{
+    margin-top:20px;
+}
+.main{
+    background-color: bisque;
+}
+.tn h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    padding-left: 20px;
+    text-align: center;
+    background-color: rgb(173, 117, 50);
+    color: white;
+    margin-top: 30px;
+}
+.bgtn{
+    background-image:url("https://media.istockphoto.com/id/1455552376/photo/brihadishwara-temple-tanjore.webp?b=1&s=170667a&w=0&k=20&c=Ng1FPWDcJYnNqYQjvVQISjfOuQXXyCxoDKYbGo1robM=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    min-height: 100vh;
+    z-index: -1;
+}
+.bgke{
+    background-image:url("https://t4.ftcdn.net/jpg/01/64/62/13/360_F_164621341_vA1ZtJNeXpctAy7ASvEMtl5R6RG1pzOa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    min-height: 100vh;
+    z-index: -1;
+}
+.bgap{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl5cfUv7g-SlavkwKSBJzjjcNxfPQ9gIE9Rg&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    min-height: 100vh;
+    z-index: -1;
+}
+.content h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    padding-left: 20px;
+    text-align: center;
+    background-color: rgb(173, 117, 50);
+    color: white;
+    margin-top: 30px;
+    position: fixed;
+    width:100%;
+    z-index: 2;
+}
+.first{
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    background-color: bisque;
+    margin-top:100px;
+    opacity: 0.7;
+    border: 5px solid rgb(173, 117, 50);
+}
+.first p{
+    opacity: 1.0;
+    font-weight: bold;
+}
+.ig{
+    display: flex;
+}
+.em{
+    padding: 10px;
+    background: rgba(255, 228, 196,0.7);
+    margin-top:100px;
+    border: 5px solid rgb(173, 117, 50);
+    width: 50%;
+    margin:100px;
+    position: relative;
+    height:350px;
+}
+.em h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(173, 117, 50);
+    color: white;
+    margin-top: 30px;
+}
+.em img{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+.out{
+    padding: 10px;
+    background: rgba(255, 228, 196,0.7);
+    margin-top:100px;
+    border: 5px solid rgb(173, 117, 50);
+    width: 50%;
+    margin: 100px;
+    position: relative;
+
+}
+.out h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(173, 117, 50);
+    color: white;
+    margin: 30px;
+}
+.out img{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 200px;;
+    height: 200px;
+}   
+.other{
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    background: rgba(255, 228, 196,0.7);
+    margin-top:50 px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    border: 5px solid rgb(173, 117, 50);
+}  
+.other h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(173, 117, 50);
+    color: white;
+    margin: 30px;
+}   
