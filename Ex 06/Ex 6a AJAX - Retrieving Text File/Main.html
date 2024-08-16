@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="doc">
+      <h2>XMLHttpRequest</h2>
+      <button type="submit" onclick="loadXMLDoc()">CLICK ME</button>
+    </div>
+  </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function loadXMLDoc() {
+        var http = new XMLHttpRequest();
+        http.onreadystatechange = function () {
+          if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("doc").innerHTML = this.responseText;
+          }
+        };
+        http.open("GET", "rec.txt", true);
+        http.send();
+      }
+    </script>
+  </head>
+</html>
